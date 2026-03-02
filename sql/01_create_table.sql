@@ -1,0 +1,23 @@
+CREATE TABLE IF NOT EXISTS telco_raw(
+  customerID TEXT PRIMARY KEY,
+  gender TEXT,
+  SeniorCitizen INT,
+  Partner TEXT,
+  Dependents TEXT,
+  tenure INT,
+  PhoneService TEXT,
+  MultipleLines TEXT,
+  InternetService TEXT,
+  OnlineSecurity TEXT,
+  OnlineBackup TEXT,
+  DeviceProtection TEXT,
+  TechSupport TEXT,
+  StreamingTV TEXT,
+  StreamingMovies TEXT,
+  Contract TEXT,
+  PaperlessBilling TEXT,
+  PaymentMethod TEXT,
+  MonthlyCharges DOUBLE PRECISION,
+  TotalCharges TEXT,
+  Churn TEXT
+);
