@@ -1,8 +1,6 @@
-data/raw/
-outputs/
+.venv/
 __pycache__/
-*.pyc
-.ipynb_checkpoints/
+outputs/
 .env
-*.sqlite
 .DS_Store
+data/
